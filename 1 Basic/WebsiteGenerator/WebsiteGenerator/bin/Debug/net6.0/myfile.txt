@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<styles>
+p { color: blue; }
+</styles>
+</head>
+<body>
+<main>
+<h1> Välkomna Klass A! </h1>
+<p><b> Meddelande: </b> Glöm inte att övning ger färdighet! </p>
+<p><b> Meddelande: </b> Öppna boken på sida 257. </p><p>C#</p>
+<p>Databaser</p>
+<p>Webbutveckling</p>
+<p>Clean code</p>
+</main>
+</body>
+</html>
+YPE html>
+<html>
+<head>
+<styles>
+p { color: blue; }
+</styles>
+</head>
+<body>
+<main>
+<h1> Välkomna Klass A! </h1>
+<p><b> Meddelande: </b> Glöm inte att övning ger färdighet! </p>
+<p><b> Meddelande: </b> Öppna boken på sida 257. </p><p>C#</p>
+<p>Databaser</p>
+<p>Webbutveckling</p>
+<p>Clean code</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\bin\Debug\net6.0\WebsiteGenerator.exe
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\bin\Debug\net6.0\WebsiteGenerator.deps.json
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\bin\Debug\net6.0\WebsiteGenerator.runtimeconfig.json
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\bin\Debug\net6.0\WebsiteGenerator.dll
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\bin\Debug\net6.0\ref\WebsiteGenerator.dll
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\bin\Debug\net6.0\WebsiteGenerator.pdb
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\obj\Debug\net6.0\WebsiteGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\obj\Debug\net6.0\WebsiteGenerator.AssemblyInfoInputs.cache
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\obj\Debug\net6.0\WebsiteGenerator.AssemblyInfo.cs
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\obj\Debug\net6.0\WebsiteGenerator.csproj.CoreCompileInputs.cache
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\obj\Debug\net6.0\WebsiteGenerator.dll
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\obj\Debug\net6.0\ref\WebsiteGenerator.dll
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\obj\Debug\net6.0\WebsiteGenerator.pdb
+C:\Users\evgen\source\repos\WebsiteGenerator\WebsiteGenerator\obj\Debug\net6.0\WebsiteGenerator.genruntimeconfig.cache
