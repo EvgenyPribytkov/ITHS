@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Skapa ett spel2/1.0.0": {
+        "runtime": {
+          "Skapa ett spel2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Skapa ett spel2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
