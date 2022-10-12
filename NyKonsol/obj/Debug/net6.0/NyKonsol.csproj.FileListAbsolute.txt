@@ -1,0 +1,15 @@
+C:\Source\repos\ITHS\NyKonsol\bin\Debug\net6.0\NyKonsol.exe
+C:\Source\repos\ITHS\NyKonsol\bin\Debug\net6.0\NyKonsol.deps.json
+C:\Source\repos\ITHS\NyKonsol\bin\Debug\net6.0\NyKonsol.runtimeconfig.json
+C:\Source\repos\ITHS\NyKonsol\bin\Debug\net6.0\NyKonsol.dll
+C:\Source\repos\ITHS\NyKonsol\bin\Debug\net6.0\ref\NyKonsol.dll
+C:\Source\repos\ITHS\NyKonsol\bin\Debug\net6.0\NyKonsol.pdb
+C:\Source\repos\ITHS\NyKonsol\obj\Debug\net6.0\NyKonsol.csproj.AssemblyReference.cache
+C:\Source\repos\ITHS\NyKonsol\obj\Debug\net6.0\NyKonsol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\repos\ITHS\NyKonsol\obj\Debug\net6.0\NyKonsol.AssemblyInfoInputs.cache
+C:\Source\repos\ITHS\NyKonsol\obj\Debug\net6.0\NyKonsol.AssemblyInfo.cs
+C:\Source\repos\ITHS\NyKonsol\obj\Debug\net6.0\NyKonsol.csproj.CoreCompileInputs.cache
+C:\Source\repos\ITHS\NyKonsol\obj\Debug\net6.0\NyKonsol.dll
+C:\Source\repos\ITHS\NyKonsol\obj\Debug\net6.0\ref\NyKonsol.dll
+C:\Source\repos\ITHS\NyKonsol\obj\Debug\net6.0\NyKonsol.pdb
+C:\Source\repos\ITHS\NyKonsol\obj\Debug\net6.0\NyKonsol.genruntimeconfig.cache
