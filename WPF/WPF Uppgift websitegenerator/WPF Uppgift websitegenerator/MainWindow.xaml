@@ -1,0 +1,31 @@
+﻿<Window x:Class="WPF_Uppgift_websitegenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Uppgift_websitegenerator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+
+                        <TextBlock>Generate website</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <StackPanel>
+                    <Button Name="ButtonGenerateWebsite" Click="GenerateWebsite" Content="Generate Website" Width="300"/>
+                    <Button Name="ButtonGenerateStyledWebsite" Click="GenerateStyledWebsite" Content="Generate Styled Website" Width="300"/>
+                    <Button Name="ButtonOpenHTML" Click="OpenHTML" Content="Open local HTML file" Width="300"/>
+                    <Button Name="ButtonSaveFile" Click="SaveFile" Content="Save File" Width="300"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Result">
+                <TextBox Name="Content" />
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

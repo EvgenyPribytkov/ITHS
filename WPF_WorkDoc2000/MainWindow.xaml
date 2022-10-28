@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.RowSpan="5" Grid.Column="0" Grid.Row="1" >
+                <Button Content="Word amount:" Grid.Row="1" Click="RäknaAntalOrd"/>
+                <TextBlock Name="WordAmount" TextWrapping="Wrap" Text="TextBlock" Height="24" Width="76"/>
+                <Button Content="Upload"   Grid.Row="1"  Click="Upload"/>
+                <Button Content="Save to"  Grid.Row="1" Click="Save"/>
+                <Button Content="Capitalize text"   Grid.Row="1" Click="CapitalizeText"/>
+                <Button Content="Make capital letters"   Grid.Row="1" Click="MakeCapitalLetters"/>
+                <Button Content="Letters to numbers" Grid.Row="1" Height="22" Click="LettersToNumbers"/>
+                <Label Content="Enter a letter: "/>
+                <TextBox Name="Letter" TextWrapping="Wrap" Text="TextBlock"/>
+                <Label Content="Enter a number: "/>
+                <TextBox Name="Number" TextWrapping="Wrap" Text="TextBlock"/>
+
+            </StackPanel>
+      
+
+        <TextBox Name="MyTextBox" Grid.Column="2" Grid.ColumnSpan="3" Margin="10" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" Grid.RowSpan="4"/>
+    </Grid>
+</Window>
