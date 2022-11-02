@@ -48,7 +48,7 @@ namespace Tidsrapporteringssystem
             TimeSpan timeSpan = new TimeSpan();
             timeSpan = TimeSpan.Parse(End.SelectedItem.ToString()) - TimeSpan.Parse(Start.SelectedItem.ToString());
             registrations.Add($"{InputWork.Text} {MyCalendar.SelectedDate.Value.ToString("d")} {timeSpan.ToString("hh\\:mm")}");
-            RefreshListBox();
+            //RefreshListBox();
         }
         private void RefreshListBox()
         {

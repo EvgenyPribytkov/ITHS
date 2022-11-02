@@ -135,39 +135,36 @@ namespace Labb_3
             //DisplayContent();
         }
 
-        private void OpenFile(object sender, RoutedEventArgs e)
+        private async void OpenFile(object sender, RoutedEventArgs e)
         {
             try
             {
                 // Configure open file dialog box
-                Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
-                dlg.FileName = "Document"; // Default file name
-                dlg.DefaultExt = ".txt"; // Default file extension
-                dlg.Filter = "Text documents (.txt)|*.txt"; // Filter files by ex
-                                                            // Show open file dialog box
-                Nullable<bool> result = dlg.ShowDialog();
-                // Process open file dialog box results
-                if (result == true)
+                var res = await Task.Run(() =>
                 {
-                    // Open document
-                    string filename = dlg.FileName;
-                }
-                string[] readText = File.ReadAllLines(dlg.FileName);
+                    Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
+                    dlg.FileName = "Document"; // Default file name
+                    dlg.DefaultExt = ".txt"; // Default file extension
+                    dlg.Filter = "Text documents (.txt)|*.txt"; // Filter files by ex
+                                                                // Show open file dialog box
+                    Nullable<bool> result = dlg.ShowDialog();
+                    // Process open file dialog box results
+                    if (result == true)
+                    {
+                        // Open document
+                        string filename = dlg.FileName;
+                    }
+                    string[] readText = File.ReadAllLines(dlg.FileName);
+                    return readText;
+                });
                 listOfBookings.Clear();
-                List<string> bookingsList = readText.ToList<string>();
+                List<string> bookingsList = res.ToList<string>();
                 foreach (string x in bookingsList)
                 {
                     string[] bookings = x.Split(" ");
                     listOfBookings.Add(new Booking(bookings[0], bookings[1], bookings[2], bookings[3]));
                 }
                 DisplayContent();
-                //string text = "";
-                //foreach (string s in readText)
-                //{
-                //    text += s + "\n";
-                //}
-                
-                //Bookings.Text = text;
             }
             catch (Exception ex)
             {
